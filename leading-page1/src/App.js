@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import {
   BrowserRouter as Router,
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" exact Component={Home} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
