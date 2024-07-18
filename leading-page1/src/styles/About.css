@@ -24,6 +24,7 @@
 
 .aboutBottom p {
   width: 1200px;
+  text-align: justify;
 }
 
 .about .aboutBottom h1 {
