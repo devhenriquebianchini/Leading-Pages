@@ -8,9 +8,6 @@ This repository contains landing pages developed for my personal portfolio. Each
 - [Cloning the Repository](#cloning-the-repository)
 - [Installing Dependencies](#installing-dependencies)
 - [Running the Project](#running-the-project)
-- [Project Structure](#project-structure)
-- [Contribution](#contribution)
-- [License](#license)
 
 ## Prerequisites
 
@@ -42,4 +39,20 @@ Using yarn:
 ```bash
 cd leading-page1
 yarn install @emotion/react@^11.11.4 @emotion/style@^0.8.0 @emotion/styled@^11.11.5 @mui/icons-material@^5.16.4 @mui/material@^5.16.4 @testing-library/jest-dom@^5.17.0 @testing-library/react@^13.4.0 @testing-library/user-event@^13.5.0 react@^18.3.1 react-dom@^18.3.1 react-router-dom@^6.25.1 react-scripts@5.0.1 web-vitals@^2.1.4
+```
+
+## Running the Project
+
+After installing the dependencies, you can run the project locally with the following command:
+
+Using npm:
+
+```bash
+npm start
+```
+
+Using yarn:
+
+```bash
+yarn start
 ```
